@@ -14,6 +14,7 @@
 		413AA7FD2724B794008D6631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413AA7FB2724B794008D6631 /* LaunchScreen.storyboard */; };
 		413AA81527273B77008D6631 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413AA81427273B77008D6631 /* DateHelper.swift */; };
 		5F5B164F28DCAB3200A74DBB /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5B164E28DCAB3200A74DBB /* Log.swift */; };
+		5F5B165228DCAD8C00A74DBB /* LogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5B165128DCAD8C00A74DBB /* LogController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		413AA7FE2724B794008D6631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		413AA81427273B77008D6631 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 		5F5B164E28DCAB3200A74DBB /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		5F5B165128DCAD8C00A74DBB /* LogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				413AA80527271158008D6631 /* Resources */,
 				413AA80427271142008D6631 /* Storyboards */,
 				5F5B165028DCAB3C00A74DBB /* Model */,
+				5F5B165328DCADA200A74DBB /* Model Controllers */,
 			);
 			path = TravelDiary;
 			sourceTree = "<group>";
@@ -100,6 +103,14 @@
 				5F5B164E28DCAB3200A74DBB /* Log.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5F5B165328DCADA200A74DBB /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F5B165128DCAD8C00A74DBB /* LogController.swift */,
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 			files = (
 				413AA7F12724B792008D6631 /* AppDelegate.swift in Sources */,
 				413AA7F32724B792008D6631 /* SceneDelegate.swift in Sources */,
+				5F5B165228DCAD8C00A74DBB /* LogController.swift in Sources */,
 				5F5B164F28DCAB3200A74DBB /* Log.swift in Sources */,
 				413AA81527273B77008D6631 /* DateHelper.swift in Sources */,
 			);
