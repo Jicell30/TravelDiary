@@ -32,7 +32,8 @@ class LogController {
     }
     
     func delete(logToDelete:Log) {
-        
+        guard let indexOfLogToDelete = logs.firstIndex(of: logToDelete) else {return}
+        logs.remove(at: indexOfLogToDelete)
     }
     
 } //End of class
